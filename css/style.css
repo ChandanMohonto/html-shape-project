@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    background: red;
+    width:200px;
+    height:200px;
+    
+
+}
+
+.rectangle{
+    background-color: tomato;
+    width: 200px;
+    height: 100px;
+    
+}
+
+.circle{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+
+}
+
+.oval{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px/50px;
+
+}
+.tringleup{
+    background-color: yellow;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid indigo;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.tringledown{
+    background-color: red;
+    width: 0;
+    height: 0;
+    border-top: 200px solid blue;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.green{
+    background-color: green;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.lal{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}  
+.triangleleft{
+    width: 0;
+    height: 0;
+    border-right: 200px solid hotpink;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+}
+.triangleright{
+    width: 0;
+    height: 0;
+    border-left: 200px solid hotpink;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+
+
+}
